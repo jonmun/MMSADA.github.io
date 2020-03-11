@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Action Recognition from Single Timestamp Supervision in Untrimmed Videos</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+      <h5><a class="js-scroll-trigger" href="#page-top" style="color:white">Multi-Modal Domain Adaptation for Fine-grained Action Recognition</a></h5>
+    </div>
+  
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#authors">Authors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#abstract">Abstract</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#video">Video</a>
+          </li>
+         <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#download">Download</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#bibtex">Bibtex</a>
+          </li>
+       </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-primary text-white">
+    <div class="container text-center">
+      <h1>Multi-modal Domain Adaptation for Fine-grained Action Recognition</h1>
+      <h4>CVPR 2020</h4>          
+    </div>
+  </header>
+  
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+            <figure>
+                <img style='height: 100%; width: 100%; object-fit: contain' src="arch.svg" widht=3>
+                 <figcaption></br>
+                 </figcaption>
+            </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="authors">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Authors</h2>          
+          <ul>
+            <li><a target="_blank">Jonathan Munro</a> - University of Bristol, Visual Information Laboratory</li>
+            <li><a href="http://people.cs.bris.ac.uk/~damen/" target="_blank">Dima Damen</a> - University of Bristol, Visual Information Laboratory</li>           
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="abstract">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+
+Fine-grained action recognition datasets exhibit environmental bias, where multiple video sequences are captured from a limited number of environments. Training a model in one environment and deploying in another results in a drop in performance due to an unavoidable domain shift. Unsupervised Domain Adaptation (UDA) approaches have frequently utilised adversarial training between the source and target domains. However, these approaches have not explored the multi-modal nature of video within each domain. In this work we exploit the correspondence of modalities as a self-supervised alignment approach for UDA in addition to adversarial alignment. We test our approach on three kitchens from our large-scale dataset, EPIC-Kitchens, using two modalities commonly employed for action recognition: RGB and Optical Flow. We show that multi-modal self-supervision alone improves the performance over source-only training by 2.4 on average. We then combine adversarial training with multi-modal self-supervision, showing that our approach outperforms other UDA methods by 3%.
+	</div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="video">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Video</h2>       
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qgd-DBgf-S0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="download">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Download</h2>
+          <ul>
+            <li>Paper to be uploaded</li>            
+            <li>Dataset labels to be uploaded</li>  
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="bibtex">
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-8 mx-auto">
+            <h2>Bibtex</h2>
+            <p style="
+                        display: block;
+                        padding: 9.5px;
+                        margin: 0 0 10px;
+                        font-size: 13px;
+                        line-height: 1.428571429;
+                        color: #333;
+                        word-break: break-all;
+                        word-wrap: break-word;
+                        background-color: #f5f5f5;
+                        border: 1px solid #ccc;
+                        border-radius: 4px;
+                        ">
+            <tt>@InProceedings{munro20multi, </br>
+                author      = "Jonathan Munro and Damen, Dima",</br>
+                title       = "{M}ulti-modal {D}omain {A}daptation for {F}ine-grained {A}ction {R}ecognition",</br>
+                booktitle   = "Computer Vision and Pattern Recognition (CVPR)",</br>
+                year        = "2020"</br>}</tt>
+            </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+ 
+  <section id="acknowledgement">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Acknowledgement</h2>
+          <p class="lead" align="justify">
+          Research supported by: EPSRC <a href="https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/N033779/1" target="_blank">LOCATE (EP/N033779/1)</a> and EPSRC Doctoral Training Programme at the University of Bristol.<br/>
+          </br>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="js/scrolling-nav.js"></script>
+
+</body>
+
+</html>
