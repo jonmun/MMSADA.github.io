@@ -68,6 +68,9 @@
                  <figcaption></br>
                  </figcaption>
             </figure>
+            <p>
+Proposed architecture: feature extractors F<sup>RGB</sup> and F<sup>Flow</sup> are shared for both target and source domains. Domain Discriminators,D<sup>RGB</sup>and D<sup>Flow</sup>, are applied to each modality. Self-supervised correspondence of modalities, C, is trained from both source and unlabelled target data. Classifiers,G<sup>RGB</sup> and G<sup>Flow</sup> are trained using source domain examples only from the average pooled classification scores of each modality. During inference, multi modal target data is classified.
+            </p>
         </div>
       </div>
     </div>
